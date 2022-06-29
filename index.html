@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/reset.css"/>
-    <link rel="stylesheet" href="styles/tela1.css"/>
-    <link rel="stylesheet" href="styles/tela2.css"/>
-    <link rel="stylesheet" href="styles/tela3.css"/>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/tela1.css" />
+    <link rel="stylesheet" href="styles/tela2.css" />
+    <link rel="stylesheet" href="styles/tela3.css" />
     <link rel="shortcut icon" href="assets/buzzquizz.png" type="image/x-icon">
     <title>BuzzQuizz</title>
 </head>
+
 <body>
     <header>
         <h1>BuzzQuizz</h1>
@@ -22,6 +24,12 @@
                 <button type="button" onclick="trocarDeTela(2)">+</button>
             </div>
             <ul class="seus-quizzes">
+                <li>
+                    <img src="./assets/hogwarts.png" />
+                    <span>O quão Potterhead você é?</span>
+                    <img src="./assets/de-ferias.png" />
+                    <span>É ex-BBB ou ex-De férias com o Ex?</span>
+                </li>
             </ul>
         </section>
 
@@ -33,6 +41,20 @@
         <section class="local-todos-quizzes">
             <h2>Todos os Quizzes</h2>
             <ul class="todos-quizzes">
+                <li>
+                    <img src="./assets/simpson.png" />
+                    <span>Acerte os personagens corrretos dos Simpsons e prove seu amor!</span>
+                    <img src="./assets/bicho-preguica.png" />
+                    <span>O quanto você é de boas?</span>
+                    <img src="./assets/simpson.png" />
+                    <span>Acerte os personagens corrretos dos Simpsons e prove seu amor!</span>
+                    <img src="./assets/simpson.png" />
+                    <span>Acerte os personagens corrretos dos Simpsons e prove seu amor!</span>
+                    <img src="./assets/bicho-preguica.png" />
+                    <span>O quanto você é de boas?</span>
+                    <img src="./assets/simpson.png" />
+                    <span>Acerte os personagens corrretos dos Simpsons e prove seu amor!</span>
+                </li>
             </ul>
         </section>
     </main>
@@ -41,9 +63,35 @@
     pois o javascript delas não esta feito
     o intuito dela é se limitar e poupar tempo, mas o foco é a tela 1-->
 
-    
+
     <!--Tela 2 - Interface de perguntas e respostas mas eu fiz o css mas nao vai aparecer sabta-->
     <main class="tela-2 hidden">
+        <div class="bloco-quiz">
+            <div class="titulo"><h4>Em qual animal Olho-Tonto Moody transfigurou Malfoy?</h4></div>
+            <img src="./assets/cat.png" />
+            <p>Gatíneo</p>
+            <img src="./assets/ratata.png">
+            <p>Ratata</p>
+            <img src="./assets/sapogordo.png" />
+            <p>Sapo Gordo</p>
+            <img src="./assets/furao.png" />
+            <p>Mustela pitorius (o Furão)</p>
+        </div>
+
+        <div class="bloco-quiz">
+            <div class="titulo"><h4>Qual dos objetos abaixo NÃO é uma horcrux?</h4></div>
+            <img src="./assets/HarryPotter.png" />
+            <p>The boy who lived</p>
+            <img src="./assets/livromonstro.png">
+            <p>O livro monstruoso dos monstros</p>
+            <img src="./assets/anelvelho.png" />
+            <p>Anel velho</p>
+            <img src="./assets/diadema.png" />
+            <p>Diadema da Ravenclaw</p>
+        </div>
+
+
+
     </main>
     <!-- - Tela 2 - Interface de perguntas e respostas-->
     <!--Tela 3.1 Info básica do Quiz-->
@@ -97,7 +145,7 @@
     <main class="tela-3  hidden">
         <h2>Seu quizz está pronto!</h2>
         <div class="quizz-feito">
-            
+
         </div>
         <button type="button" class="main-button" onclick="acessarQuizz()">Acessar Quizz</button>
         <button type="button" class="go-home" onclick="voltarHome()">Voltar pra home</button>
@@ -110,4 +158,5 @@
     <script src="scripts/script2.js"></script>
     <script src="scripts/script3.js"></script>
 </body>
+
 </html>
