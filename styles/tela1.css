@@ -60,6 +60,141 @@ header h1 {
     padding: 0px 17px 0px 17px;
 }
 
+.header-tela2 h2 {
+    position: absolute;
+    width: 1051px;
+    height: 54px;
+    left: 35.5vw;
+    top: 8vw;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.titulo-um {
+    width: 100%;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #434CA0;
+}
+
+
+.titulo-um>h4 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.bloco-quiz-um {
+    width: 759px;
+    height: 676px;
+    margin-top: 5vw;
+    background-color: pink;
+}
+
+.bloco-quiz-um img {
+
+    width: 331.94px;
+    height: 175.2px;
+
+    border-radius: 0px;
+}
+
+.bloco-quiz-um>p {
+
+    width: 329.91px;
+    height: 34.11px;
+    left: 355.43px;
+    top: 665.01px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.titulo-dois {
+    width: 100%;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A0438D;
+}
+
+.titulo-dois>h4 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.bloco-quiz-dois {
+    width: 759px;
+    height: 676px;
+    margin-top: 20vw;
+    background-color: pink;
+  
+}
+
+
+
+.bloco-quiz-dois>p {
+
+
+    width: 329.91px;
+    height: 34.11px;
+    left: 355.43px;
+    top: 665.01px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.bloco-quiz-dois img {
+    width: 331.94px;
+    height: 175.2px;
+
+    border-radius: 0px;
+}
+
 .local-seus-quizzes {
     width: 1051px;
     max-width: 100%;
@@ -239,11 +374,6 @@ header h1 {
 
 .hidden {
     display: none;
-}.todos-quizzes{
-    display:flex;
-    
-    
-   
 }
 
 @media (max-width: 1100px) {
