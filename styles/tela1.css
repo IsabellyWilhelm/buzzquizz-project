@@ -388,7 +388,7 @@ header h1 {
         margin-top: 35px;
     }
 
-    .todos-quizzes,
+    .-quizzes,
     .seus-quizzes {
         margin: 0 auto;
         max-width: 766px;

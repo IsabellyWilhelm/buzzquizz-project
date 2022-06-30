@@ -1,7 +1,7 @@
 // buscar imagens
 //let urlQuizz = "https://mock-api.driven.com.br/api/v4/buzzquizz";
 
-/*getImage();
+getImage();
 function getImage(){
     const promisse = axios.get("https://mock-api.driven.com.br/api/v4/buzzquizz/quizzes");
     promisse.then(showImage);
@@ -26,8 +26,15 @@ function showImage(response){
         </section> 
      `
     }
-}*/
-let arrayQuizzesServidor;
+}
+
+
+function getAllQuizzezz(){
+	const elementImage = document.querySelector(".local-todos-quizzes");
+	const elementText =document.querySelector(".")
+}
+
+/*let arrayQuizzesServidor;
 function getQuizzes() {
     const quizzes = axios.get("https://mock-api.driven.com.br/api/v6/buzzquizz/quizzes");
     quizzes.then(function (resposta) {
@@ -113,4 +120,4 @@ function quizzes(){
 			}
 		]
 	}
-]
+]*/
