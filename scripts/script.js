@@ -1,7 +1,7 @@
 // buscar imagens
 //let urlQuizz = "https://mock-api.driven.com.br/api/v4/buzzquizz";
 
-getImage();
+/*getImage();
 function getImage() {
 	const promisse = axios.get("https://mock-api.driven.com.br/api/v7/buzzquizz/quizzes");
 	promisse.then(showImage);
@@ -128,7 +128,7 @@ function quizzes(){
 			}
 		]
 	}
-]*/
+]*//*
 let arrayQuizzesServidor;
 
 
@@ -174,7 +174,7 @@ function preencheContainerDeQuiz(classeDoContainer, arrayDeQuizzes) {
 		}
 	}
 	trocaDeSection();
-}
+}*/
 
 //aqui
 
@@ -307,3 +307,4 @@ const quizzObject = {
 	selectLevel.setAttribute("class", "noDisplay");
 	ending.classList.remove("noDisplay");
   };
+
