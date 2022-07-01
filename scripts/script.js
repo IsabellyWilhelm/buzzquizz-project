@@ -316,8 +316,8 @@ function start() {
 	const inputTitle = document.querySelector(".quiz-title").value;
 	console.log(inputTitle);
 	const inputUrl = document.querySelector(".quizz-image").value;
-	const inputQuestions = document.querySelector(".amount-questions").vallue;
-	const inputLevel = document.qquerySelector(".amount-levels").value;
+	const inputQuestions = document.querySelector(".amount-questions").value;
+	const inputLevel = document.querySelector(".amount-levels").value;
 
 	const ownquizz = {
 		title: inputTitle,
@@ -390,8 +390,7 @@ function start() {
 
 	const promisse = axios.post("https://mock-api.driven.com.br/api/v4/buzzquizz/quizzes", ownquizz);
 	promisse.then(showQuizz);
-	console.log(showQuizz
-		)
+	console.log(promisse)
 }
 
 function showQuizz() {
