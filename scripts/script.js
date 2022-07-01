@@ -233,7 +233,7 @@ const makeQuestions = () => {
 	if (nextPage) {
 		start.setAttribute("class", "noDisplay");
 		createQuestions.classList.remove("noDisplay");
-		renderCreateQuestions(amountOfQuestions);
+		renderCreateQuestions(amountOfQuestions); //onde está a variável?
 	} else {
 		alert("Preencha os dados corretamente!");
 	}
