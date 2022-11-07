@@ -28,7 +28,7 @@ const quizzObject = {
 	listQuizz.setAttribute("class", "noDisplay");
 	creatingQuizz.classList.remove("noDisplay");
   };
-  
+
   const makeQuestions = () => {
 	let nextPage = false;
   
